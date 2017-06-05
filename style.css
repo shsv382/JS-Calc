@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.calc {
+	border: 1px dotted red;
+	height: 700px;
+	position: relative;
+	top: 100px;
+}
+
+.button_row {
+	width: 97%;
+	margin: 11px auto;
+	border: 1px dotted blue;
+	height: 159px;
+}
+
+.button {
+	background-color: grey;
+	display: inline-block;
+	width: 30%;
+	margin: 2px;
+	height: 150px;
+}
