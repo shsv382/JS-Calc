@@ -16,6 +16,7 @@
 	margin: 11px auto;
 	border: 1px dotted blue;
 	height: 159px;
+	position: relative;
 }
 
 .button {
@@ -24,4 +25,25 @@
 	width: 30%;
 	margin: 2px;
 	height: 150px;
+	box-shadow: 5px 5px 5px 3px #777;
+}
+
+.button:hover {
+	background-color: orange;
+	box-shadow: 5px 5px 15px 2px #999;
+}
+
+.button1 {
+	position: absolute;
+	left: 0;
+}
+
+.button2 {
+	position: absolute;
+	left: 34.5%;
+}
+
+.button3 {
+	position: absolute;
+	right: 0;
 }
